@@ -29,6 +29,10 @@ public class OrdenCompra {
         this.fecha = fecha;
     }
 
+    public Date getFecha() {
+        return fecha;
+    }
+
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
